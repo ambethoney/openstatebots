@@ -1,7 +1,7 @@
 {
-  "name": "practice",
+  "name": "OpenStatesBot",
   "version": "1.0.0",
-  "description": "Practice using OpenStates API ",
+  "description": "Twitter Bot that tweets currently worked on legislation for a given state",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.4",
-    "twit": "^2.2.9"
+    "twit": "^2.2.11"
   },
   "engines": {
     "node": "6.9.1"
